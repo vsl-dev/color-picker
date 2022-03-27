@@ -1,4 +1,4 @@
-	var rnd = randomColor()
+var rnd = randomColor()
 document.body.style.backgroundColor = `${rnd}`;
 document.getElementById("colorPicker").value = `${rnd}`;
 document.getElementById("change-color").style.color = `${rnd}`;
