@@ -1,0 +1,90 @@
+	@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+font-family: 'Varela Round', sans-serif;
+color: black;
+}
+
+.container {
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 20px;
+	width: 65%;
+	height: auto!important;
+	margin-top: 7%;
+	box-shadow: 11px 11px rgb(84, 84, 84, 45%);
+}
+
+.footer {
+	color: #858585;
+	align-items: center;
+}
+
+.creator a {
+	text-decoration: none;
+	color: #858585;
+}
+
+.random {
+	border: black;
+	border-radius: 7px;
+	width: 125px!important;
+	height: 27px!important
+}
+
+.input {
+	border: black;
+	border-radius: 17px;
+}
+
+.social {
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 20px;
+	width: 45%;
+	height: auto!important;
+	margin-top: 3%;
+	box-shadow: 11px 11px rgb(84, 84, 84, 45%);
+}
+
+.social-btn {
+	cursor: pointer;
+	color: white;
+	font-size: 25px;
+	background-color: #a22de1;
+	width: 55px;
+	height: 55px!important;
+	border: none;
+	border-radius: 7px;
+	box-shadow: 5px 5px black;
+	margin: 0 10px 0 0;
+	transition: 0.3s;
+}
+
+.social-btn:hover {
+	transform: translateY(4px) translateX(4px);
+	box-shadow: 1px 1px black;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+.container {
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 20px;
+	width: 95%;
+	height: auto!important;
+	margin-top: 7%;
+	box-shadow: 11px 11px rgb(84, 84, 84, 45%);
+}
+
+.social {
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 20px;
+	width: 65%;
+	height: auto!important;
+	margin-top: 3%;
+	box-shadow: 11px 11px rgb(84, 84, 84, 45%);
+}
+}
