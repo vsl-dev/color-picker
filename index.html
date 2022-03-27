@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="github.com/vsl-dev, vsldev.tk">
+<meta property="og:site_name" content="Color Picker">
+<meta name="keywords" content="color, picker, color picker">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Open source basic color picker website">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta2/css/all.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Color Picker</title>
+</head>
+
+<body>
+
+<center>
+<div class="container">
+<h1 id="change-color"><i class="fa-solid fa-palette"></i> Color Picker</h1>
+<div class="input">
+<label>Enter Color Code</label>
+<input style="width: 109px;" type="text" oninput="customColor()" id="customColor" placeholder="Enter a color code!" autocomplete="off" value="#"/>
+<br><br>
+<label>Select Color</label>
+<input style="width: 155px;" type="color" oninput="colorPicker()" id="colorPicker"/>
+<br><br>
+<label>Hex Code</label>
+<input onfocus="selectText(this.id)" type="text" id="hex" readonly/>
+<br><br>
+<label>Rgb Code</label>
+<input onfocus="selectText(this.id)" type="text" id="rgb" readonly/>
+</div>
+<br>
+<button class="random" onclick="randomButton()">Random</button>
+<br>
+<div class="footer">
+  <h4 class="creator">Created By <a href="https://vsldev.tk">Vusal</a></h4>
+</div>
+</div>
+
+<div class="social">
+<h2 id="change-color-social"><i class="fa-solid fa-hashtag"></i> Social</h2>
+
+<button class="social-btn" title="Github" onclick="window.location.href = 'https://github.com/vsl-dev'"><i class="fa-brands fa-github"></i></button>
+
+<button class="social-btn" title="Instagram" onclick="window.location.href = 'https://instagram.com/vsl.dev'"><i class="fa-brands fa-instagram"></i></button>
+	
+<button class="social-btn" title="Website" onclick="window.location.href = 'https://vsldev.tk'"><i class="fa-solid fa-globe"></i></button></button>
+<br><br><br>
+</div>
+</center>
+	
+<script src="script.js"></script>
+</body>
+</html>
