@@ -75,3 +75,9 @@ colorInput.addEventListener('input', () =>{
     let color = colorInput.value;
     hexInput.value = color;
 });
+
+// Dont Touch
+
+setInterval(() => {
+	  console.log('Source Code - https://github.com/vsl-dev/color-picker');
+})
