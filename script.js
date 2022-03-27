@@ -80,4 +80,4 @@ colorInput.addEventListener('input', () =>{
 
 setInterval(() => {
 	  console.log('Source Code - https://github.com/vsl-dev/color-picker');
-})
+}, 5000)
