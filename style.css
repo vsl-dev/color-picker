@@ -1,4 +1,4 @@
-	@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 body {
 font-family: 'Varela Round', sans-serif;
@@ -26,6 +26,7 @@ color: black;
 }
 
 .random {
+	cursor: pointer;
 	border: black;
 	border-radius: 7px;
 	width: 125px!important;
