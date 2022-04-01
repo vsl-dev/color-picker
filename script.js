@@ -76,6 +76,22 @@ colorInput.addEventListener('input', () =>{
     hexInput.value = color;
 });
 
+// ctrl + r
+
+$(document).ready(function () {
+    $(document).on("keydown", function(e) {
+        e = e || window.event;
+        if (e.ctrlKey) {
+            var c = e.which || e.keyCode;
+            if (c == 82) {
+		e.preventDefault();
+                e.stopPropagation();
+                randomButton()
+            }
+        }
+    });
+});
+
 // Dont Touch
 
 setInterval(() => {
